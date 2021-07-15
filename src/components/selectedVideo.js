@@ -2,7 +2,7 @@ import React from 'react';
 
 const SelectedVideo = (props) => {
     if (!props.video) {
-        return <h1>Cargando</h1>
+        return <h1>Cargandof</h1>
     }
 
     const idEmbed = `https://www.youtube.com/embed/${props.video.id.videoId}`
